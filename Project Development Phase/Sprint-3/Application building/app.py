@@ -23,7 +23,7 @@ def y_predict():
 	kms = float(request.form['kms'])
 	regmonth = int(request.form.get('regmonth'))
 	gearbox = request.form['gearbox']
-	damage = request.form['dam']
+	damage = request.form['damaged']
 	model  = request.form.get('model_type')
 	brand = request.form.get('brand')
 	fuelType = request.form.get('fuel')
